@@ -24,6 +24,7 @@ public class CubeFactory : MonoBehaviour
                      GameObject newObj = Instantiate(cubePrefab);
                     newObj.transform.position = new Vector3(x, y, z);
                     newObj.transform.rotation = Quaternion.identity;
+                    //newObj.transform.localEulerAngles = Vector3.zero;
                 }
             }
         }
